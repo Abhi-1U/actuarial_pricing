@@ -54,7 +54,7 @@ editor_options:
 ::: {.column .fragment .fade-in width="72%"}
 ### How prices of insurance products are different ?
 
--   An observation : My life insurance premium is **₹5047** and similarly my travel insurance premium was **₹ 726**.
+-   An observation : My life insurance premium is **₹5047** not (₹5000) and similarly (not comparing them) my travel insurance premium was **₹ 726** not (₹699).
 -   This is clearly different from pricing of normal consumer goods and services.
 :::
 
