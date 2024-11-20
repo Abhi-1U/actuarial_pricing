@@ -1,0 +1,239 @@
+---
+from: markdown+emoji
+execute:
+  cache: false
+format:
+  letterbox-revealjs:
+    theme: [default]
+    css: [theme.css]
+    footer: "[https://abhi-1u.github.io/actuarial_pricing/](https://abhi-1u.github.io/actuarial_pricing/)"
+    slide-number: true
+    show-slide-number: all
+    progress: true
+    menu: true
+    width: 1536
+    height: 864
+filters:
+  - custom-callouts
+callout-appearance: simple
+editor_options: 
+  chunk_output_type: console
+---
+
+::: center
+## How Actuaries Shape the Price Tag on Life Insurance
+
+#### 20th November 2024
+:::
+
+## 
+
+::: columns
+::: {.column .fragment .fade-in width="70%"}
+### Hi there , I am a ...
+
+-   :mortar_board: **Student Actuary** at Institute of Actuaries of India
+-   :blue_book: Subjects cleared : **CS-1, CM-1** Appeared : **CB-1**
+-   :chart_with_upwards_trend: Previous experience with software development in **R and Python**.
+:::
+
+::: {.column width="30%"}
+### Abhishek Ulayil
+
+#### Aspiring Actuary + Software Developer
+
+[![](resources/github.svg){.icon} \@Abhi-1U](https://github.com/Abhi-1U)
+
+[![](resources/linkedin.svg){.icon} \@abhishek-ulayil](https://www.linkedin.com/in/abhishek-ulayil-666b647b/)
+:::
+:::
+
+## 
+
+::: columns
+::: {.column .fragment .fade-in width="72%"}
+### How prices of insurance products are different ?
+
+-   An observation : My life insurance premium is **₹5047** and similarly my travel insurance premium was **₹ 726**.
+-   This is clearly different from pricing of normal consumer goods and services.
+:::
+
+::: {.column width="28%"}
+![](resources/yellow_image.png){.image-right}
+:::
+:::
+
+## 
+
+::: columns
+::: {.column .fragment .fade-in width="70%"}
+### Why prices of insurance products are peculiar ?
+
+-   Risk-Based Pricing
+-   Regulatory and Cost Breakdown
+    -   Base premium (covering the risk)
+    -   Add on's/ riders
+    -   Administrative fees
+    -   Taxes
+-   Transparency and Fairness
+-   Emphasis is on accuracy and clarity
+:::
+
+::: {.column width="30%"}
+![](resources/peru_image.png){.image-right}
+:::
+:::
+
+## 
+
+::: {.column .fragment .fade-in width="70%"}
+### Who is an actuary
+
+-   Professionals trained in mathematics, statistics, and financial theory to assess and manage risk.
+-   Their work is fundamental in the process of pricing life insurance products.
+-   Life insurance products are prone to variations in risk factors like
+    -   **Mortality rates**
+    -   **Policy lapse rates**
+    -   **Inflation**
+    -   **Interest rates**
+-   An actuary considers these risks in their pricing models and tries to price the product prudently.
+:::
+
+::: {.column width="30%"}
+![](resources/mediumseagreen_image.png){.image-right}
+:::
+
+## 
+
+::: columns
+::: {.column .fragment .fade-in width="70%"}
+### How do we arrive at a price ?
+
+-   **Example:** Whole life assurance
+-   Calculating a **future loss random variable** $$(Gross FLRV) L_0 = S\rm{v}^{T_x} \texttt{+}  I \texttt{+} e \bar{a}\frac{}{T_x|} \texttt{+} f\rm{v}^{T_x} \texttt{-} G\bar{a}\frac{}{T_x|} $$
+-   Then we find a Premium amount which will minimize the loss in more than 95% of the time. $$P(L_0 \leq 0) \geq 0.95$$
+-   This seems similar to the basic pricing logic $$(\rm{PV(Future\_} \rm{incomes)} - \rm{PV(Future\_expenses)}) \gt 0 $$
+
+<!-- ### Why pricing is so challenging ? -->
+
+<!-- - Insurance products are realized in future as compared to say a tangible consumer product. -->
+
+<!-- - Variations in risk factors like Inflation, Interest rates, Currency exchange fluctuations and uncertainty of payout. -->
+
+<!-- - Higher cost of sales, commissions, marketing and advertising should be covered in the initial premium. -->
+
+<!-- ### What would happen if you price a product too high  -->
+
+<!-- - Competitors in the market will have similar spec-ed product cheaper  -->
+
+<!-- - Sales will be lower and this will push marketing and advertising costs. -->
+
+<!-- - If priced prudently, any significant actuarial gain would have to be given back to the policyholder as bonus. -->
+
+<!-- - Lower number of policy holders would mean that the risk is divided among a smaller pool. -->
+
+<!-- - The upside would be that the losses due to other risks and claims should not have a grave impact, reserves maintained would suffice. -->
+:::
+
+::: {.column width="30%"}
+![](resources/sky_blue_image.png){.image-right}
+:::
+:::
+
+## 
+
+::: {.column .fragment .fade-in width="70%"}
+### Key responsibilities of actuaries in pricing
+
+-   Risk assessment
+-   Cost analysis
+-   Premium calculation
+-   Sensitivity testing
+-   Regulatory compliance
+
+<!-- ### What would happen if you price a product too low  -->
+
+<!-- - If the price of the insurance product is lower than the competition (almost cost to cost basis), then there will be more people interested in buying the product. -->
+
+<!-- - Since there will be a lot of policyholders, the product would be a low margin high volume  product. -->
+
+<!-- - If for some unforeseen reasons, there is a variation in interest rates, inflation or just the number of claims going up, which exceed the expectations while pricing the product, there could be significant financial losses which would arise from claim settlements.   -->
+:::
+
+::: {.column width="30%"}
+![](resources/fuchsia_image.png){.image-right}
+:::
+
+## 
+
+::: {.column .fragment .fade-in width="70%"}
+### The pricing process
+
+-   **Data Collection and Analysis:** Use historical and market data to model risks.
+-   **Modeling and Assumptions:** Apply actuarial models with assumptions on Mortality rates, age and other parameters.
+-   Investment returns.
+-   **Policyholder behavior (e.g., lapse and renewal rates).**
+-   **Risk Adjustment:** Incorporate margins for uncertainty and solvency requirements.
+-   **Profitability Analysis:** Use metrics like IRR (Internal Rate of Return) or VNB (Value of New Business) to ensure profitability.
+-   **Pricing Review and Approval** <!-- ### Why should an actuary price these products ? -->
+
+<!-- - The art of pricing is to land this perfect balance and make modest gains (although volume should amplify). -->
+
+<!-- - An actuary would be one of the most qualified persons to tackle this challenge. -->
+
+<!-- - As an actuary we will model the risks, the patterns and the historic claims data to get a statistically sound figure for the price. -->
+
+<!-- - We will test our price for variations (both large and small), also considering what is the likelihood of such an event. -->
+
+<!-- - We will also make sure that the pricing, the models and the valuations are in line with the regulatory body.  -->
+
+<!-- - The price will be updated frequently (usually a year) and we will keep monitoring the dynamic environment around us to ensure we have the best pricing. -->
+:::
+
+::: {.column width="30%"}
+![](resources/steelblue_image.png){.image-right}
+:::
+
+## 
+
+::: columns
+::: {.column .fragment .fade-in width="70%"}
+### Strategic contributions
+
+-   **Product Development:** Help design innovative products by providing insights on cost structures and risk mitigation.
+-   **Market Competitiveness:** Benchmark products against competitors and suggest adjustments to pricing or features.
+-   **Dynamic Pricing:** Adapt pricing based on emerging trends, economic changes, and customer behavior.
+-   **Customer Focus:** Ensure pricing meets customer needs while maintaining profitability.
+:::
+
+::: {.column width="30%"}
+![](resources/darkviolet_image.png){.image-right}
+:::
+:::
+
+## 
+
+::: columns
+::: {.column .fragment .fade-in width="70%"}
+### Impact of an actuary pricing your products
+
+-   **Profitability:** Ensuring sustainable profit margins through precise pricing.
+-   **Risk Management:** Minimizing financial exposure through robust pricing frameworks.
+-   **Customer Retention:** Balancing premium rates with perceived value to retain policyholders.
+-   **Innovation:** Enabling the company to launch competitive and unique insurance products.
+:::
+
+::: {.column width="30%"}
+![](resources/navy_image.png){.image-right}
+:::
+:::
+
+::: center
+## Questions
+:::
+
+::: center
+## Thank You!
+:::
+
+<!-- -->
